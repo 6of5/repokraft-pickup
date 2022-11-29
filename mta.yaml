@@ -1,6 +1,6 @@
 _schema-version: "2.1"
-ID: pickup
-version: 0.0.1
+ID: repokraft-pickup
+version: 0.1.0
 modules:
 - name: db
   type: hdb
@@ -9,6 +9,11 @@ modules:
   - name: hdi_db
     properties:
       TARGET_CONTAINER: ~{hdi-container-name}
+  - name: cross-container-service-1
+    group: SERVICE_REPLACEMENTS
+    properties:
+      key: repoiodb_grantor
+      service: ~{the-service-name}
 resources:
 - name: hdi_db
   type: com.sap.xs.hdi-container
@@ -17,3 +22,9 @@ resources:
       schema: PICKUP
   properties:
     hdi-container-name: ${service-name}
+- name: cross-container-service-1
+  type: org.cloudfoundry.existing-service
+  parameters:
+    service-name: repoiodb_mtar
+  properties:
+    the-service-name: ${service-name}

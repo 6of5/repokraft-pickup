@@ -2,6 +2,10 @@
 
 - [Change Log](DOCU/CHANGELOG.md)
 
+## Voraussetzungen
+
+- mtar von repoIOdb-bas is deployed (cf deploy repoIOdb-bas_1.1.0.mtar -e hanacloudtrial.mtaext)
+
 
 ## Version
 

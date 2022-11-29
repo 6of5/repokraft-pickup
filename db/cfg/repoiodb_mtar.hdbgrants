@@ -1,0 +1,14 @@
+{
+    "repoiodb_grantor": {
+        "object_owner": {
+            "container_roles": [
+                "repo_admin_grant#"
+            ]
+        },
+        "application_user": {
+            "container_roles": [
+                "repo_consumer"
+            ]
+        }
+    }
+}

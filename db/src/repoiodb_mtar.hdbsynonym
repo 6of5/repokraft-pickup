@@ -1,0 +1,5 @@
+{
+  "repoiodb::CUSTOMER": {},
+  "repoiodb::INVOICE_HEADER": {},
+  "repoiodb::INVOICE_ITEM": {}
+}

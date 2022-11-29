@@ -1,0 +1,14 @@
+{
+    "role": {
+        "name": "pickup_consumer",
+        "schema_privileges": [
+            {
+                "privileges": [
+                    "SELECT",
+                    "SELECT CDS METADATA",
+                    "SELECT METADATA"
+                ]
+            }
+        ]
+    }
+}

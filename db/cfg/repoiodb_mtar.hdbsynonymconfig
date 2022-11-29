@@ -1,0 +1,20 @@
+{
+  "repoiodb::CUSTOMER": {
+    "target": {
+      "object": "CUSTOMER",
+      "grantor": "repoiodb_grantor"
+    }
+  },  
+  "repoiodb::INVOICE_HEADER": {
+    "target": {
+      "object": "INVOICE_HEADER",
+      "grantor": "repoiodb_grantor"
+    }
+  },
+  "repoiodb::INVOICE_ITEM": {
+    "target": {
+      "object": "INVOICE_ITEM",
+      "grantor": "repoiodb_grantor"
+    }
+  }
+}
