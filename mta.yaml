@@ -1,12 +1,12 @@
-_schema-version: "2.1"
-ID: repokraft-pickup
-version: 0.1.0
+_schema-version: "3.1"
+ID: repokraft_pickup
+version: 1.0.0
 modules:
-- name: db
+- name: pickup_db
   type: hdb
   path: db
   requires:
-  - name: hdi_db
+  - name: pickup_hdi
     properties:
       TARGET_CONTAINER: ~{hdi-container-name}
   - name: cross-container-service-1
@@ -15,7 +15,7 @@ modules:
       key: repoiodb_grantor
       service: ~{the-service-name}
 resources:
-- name: hdi_db
+- name: pickup_hdi
   type: com.sap.xs.hdi-container
   parameters:
     config:

@@ -2,6 +2,14 @@
 
 [Back to README](../README.md)
 
+## 2022-11-30
+
+- add table PICKUP_SCHEMA
+- BAS: build mtar (via right-click mta.yaml and "Build MTA Project") -> mta_archives/repokraft_pickup_1.0.0.mtar 
+  - see [LOG/LOG_2022-11-30_buildmtar](LOG/LOG_2022-11-30_buildmtar.md)
+- BAS: deploy mtar (via right-click mta_archives/repokraft_pickup_1.0.0.mtar and select "Deploy MTA Archiv")
+  - see [LOG/LOG_2022-11-30_db-deployment-log](LOG/LOG_2022-11-30_db-deployment-log.md)
+
 ## 2022-11-29
 
 - BAS: create synonyms for CUSTOMER, INVOICE_xx of repoiodb_mtar (via grantor)

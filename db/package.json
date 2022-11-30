@@ -3,6 +3,9 @@
   "dependencies": {
     "@sap/hdi-deploy": "^4.*"
   },
+  "engines": {
+    "node": "^16"
+  },
   "scripts": {
     "start": "node node_modules/@sap/hdi-deploy/deploy.js"
   }
