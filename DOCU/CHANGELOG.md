@@ -7,6 +7,7 @@
 - Synonyms auf DUMMY, M_TABLES, VIEWS aus Schema SYS
 - neue Views V_REPODB_INVOICE_HEADER, V_REPODB_INVOICE_ITEM, V_SYS_M_TABLES, V_SYS_VIEWS
 - v1.1.0
+- build and deploy repokraft_pickup_1.1.0.mtar
 
 ## 2022-11-30
 
