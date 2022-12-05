@@ -2,6 +2,12 @@
 
 [Back to README](../README.md)
 
+## 2022-12-05
+
+- Synonyms auf DUMMY, M_TABLES, VIEWS aus Schema SYS
+- neue Views V_REPODB_INVOICE_HEADER, V_REPODB_INVOICE_ITEM, V_SYS_M_TABLES, V_SYS_VIEWS
+- v1.1.0
+
 ## 2022-11-30
 
 - add table PICKUP_SCHEMA

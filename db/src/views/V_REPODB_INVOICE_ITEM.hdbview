@@ -1,0 +1,8 @@
+VIEW "V_REPODB_INVOICE_ITEM" AS
+SELECT Item.INVOICE_ID,
+  Item.POS,
+  Item.PRODUCT_ID,
+  Item.AMOUNT,
+  Item.QTY,
+  Item.QTYUNIT
+FROM "repoiodb::INVOICE_ITEM" AS Item;

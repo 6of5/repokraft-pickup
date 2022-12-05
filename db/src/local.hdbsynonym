@@ -1,0 +1,20 @@
+{
+    "DUMMY": {
+        "target": {
+            "object": "DUMMY",
+            "schema": "SYS"
+        }
+    },
+    "M_TABLES": {
+        "target": {
+            "object": "M_TABLES",
+            "schema": "SYS"
+        }
+    },
+    "VIEWS": {
+        "target": {
+            "object": "VIEWS",
+            "schema": "SYS"
+        }
+    }
+}
