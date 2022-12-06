@@ -1,0 +1,17 @@
+{
+  "name": "Devcontainer for CAP Development",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "humao.rest-client",
+    "iljapostnovs.ui5plugin",
+    "sapse.hana-database-explorer",
+    "sapse.vscode-cds",
+    "yzhang.markdown-all-in-one"
+  ],
+  "forwardPorts": [4004,5000],
+  "remoteUser": "node"
+}

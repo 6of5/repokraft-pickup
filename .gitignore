@@ -2,3 +2,6 @@ mta_archives/
 
 # auto generated wildcard
 db/.env
+
+# osx
+.DS_Store
