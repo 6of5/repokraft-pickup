@@ -2,6 +2,14 @@
 
 [Back to README](../README.md)
 
+## 2022-12-06
+
+- Work in VSCode
+- Build mtar repokraft_pickup_1.2.0.mtar via terminal (VSCode): mbt build --strict -p=cf, see [LOG/LOG_2022-12-06_mtb_v120](LOG/LOG_2022-12-06_mtb_v120.md) 
+- add hana-client and xsenv to package.json of db module (need for the taks)
+- v1.2.2
+- build and deploy (cf deploy mta_archives/repokraft_pickup_1.2.1.mtar), see [LOG/LOG_2022-12-06_deploy_mtar_v121](LOG/LOG_2022-12-06_deploy_mtar_v121.md)
+
 ## 2022-12-05
 
 - Synonyms auf DUMMY, M_TABLES, VIEWS aus Schema SYS
