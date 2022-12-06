@@ -1,7 +1,32 @@
-mta_archives/
+_storesc/*.*
 
 # auto generated wildcard
 db/.env
 
-# osx
+# CAP
+_out
+*.db
+*.sqlite
+connection.properties
+default-*.json
+.cdsrc-private.json
+#gen/
+node_modules/
+target/
+
+# Web IDE, App Studio
+.che/
+.gen/
+
+# MTA
+*_mta_build_tmp
+*.mtar
+mta_archives/
+
+# Other
 .DS_Store
+*.orig
+*.log
+
+*.iml
+*.flattened-pom.xml
